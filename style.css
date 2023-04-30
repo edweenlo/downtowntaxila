@@ -208,7 +208,7 @@ header {
   }
   
   .animated-text {
-    font-size: 8rem;
+    font-size: 7rem;
     font-weight: bold;
     color: black;
     flex-basis: 25%;
@@ -237,6 +237,7 @@ header {
     }
     .animated-text {
         text-align: center;
+        rem: 4rem;
     }
     .twentyfour-seven-text {
         padding: 1rem;
