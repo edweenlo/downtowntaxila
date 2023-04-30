@@ -39,7 +39,7 @@ header {
   }
   
   nav .logo img {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
   }
 
@@ -208,7 +208,7 @@ header {
   }
   
   .animated-text {
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: bold;
     color: black;
     flex-basis: 25%;
