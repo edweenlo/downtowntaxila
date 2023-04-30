@@ -371,18 +371,39 @@ header {
 
 /* Section 7: Footer */
 footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-footer p {
+    background-color: #f0f0f0;
+    padding: 10px;
+    overflow: hidden; /* to clear the float */
+  }
+  
+  footer p {
+    font-size: 14px;
     margin: 0;
-    padding: 0;
-    font-size: 1rem;
-}
+  }
+  
+  footer p.left {
+    float: left;
+  }
+  
+  footer p.right {
+    float: right;
+  }
+  
+  footer a {
+    color: #000;
+    text-decoration: none;
+  }
 
+  /* privacy policy */
+  .privacy-policy {
+    padding: 5rem 10rem;
+    background-color: #3983B3;
+  }
+  .privacy-policy h1 {
+    margin-top: 4rem;
+  }
+  .privacy-policy p {
+    line-height: 2;
+    margin-bottom: 2rem;
+    color: white;
+  }
