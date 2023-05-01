@@ -407,3 +407,43 @@ footer {
     margin-bottom: 2rem;
     color: white;
   }
+  
+  /* about */
+  .about {
+    padding: 5rem 10rem;
+    background-color: #3983B3;
+  }
+
+  .about h1 {
+    margin-top: 4rem;
+  }
+  
+  .about h2 {
+    margin-top: 4rem;
+  }
+
+  .about p {
+    line-height: 2;
+    margin-bottom: 2rem;
+    color: white;
+  }
+
+  /* contact */
+  .contact {
+    padding: 5rem 10rem;
+    background-color: #3983B3;
+  }
+
+  .contact h1 {
+    margin-top: 4rem;
+  }
+  
+  .contact h2 {
+    margin-top: 4rem;
+  }
+
+  .contact p {
+    line-height: 2;
+    margin-bottom: 2rem;
+    color: white;
+  }
