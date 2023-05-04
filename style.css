@@ -371,28 +371,48 @@ header {
 
 /* Section 7: Footer */
 footer {
-    background-color: #f0f0f0;
-    padding: 10px;
-    overflow: hidden; /* to clear the float */
-  }
-  
-  footer p {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
     font-size: 14px;
-    margin: 0;
-  }
-  
-  footer p.left {
-    float: left;
-  }
-  
-  footer p.right {
-    float: right;
-  }
-  
-  footer a {
-    color: #000;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #fff;
     text-decoration: none;
-  }
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer div:nth-child(2) {
+    float: right;
+}
+
+footer div:nth-child(2) p {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    footer div {
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    footer div:nth-child(2) {
+        float: none;
+    }
+}
 
   /* privacy policy */
   .privacy-policy {
